@@ -1,3 +1,53 @@
+/* @media all and (min-width: 1024px) and (max-width: 1280px) { } 
+ @media all and (min-width: 768px) and (max-width: 1024px) { } 
+ @media all and (min-width: 370px) and (max-width: 768px) { }  
+ @media all and (max-width: 370px) { } */
+
+body {
+	background: rgb(230, 224, 212);
+}
 #contact-info {
-	font-size: 0.8rem;
+	font-size: 10px;
+}
+
+#nav {
+	background: rgb(230, 224, 212);
+}
+
+h2 {
+	color: rgb(73, 90, 109);
+	font-size: 50px;
+}
+p,
+h3,
+h4,
+h5 {
+	color: rgb(73, 90, 109);
+}
+
+#profile-pic {
+	width: 350px;
+	height: 350px;
+	border-radius: 50%;
+}
+
+button {
+	border-radius: 8%;
+
+	background-color: rgb(198, 142, 119);
+}
+
+@media all and (min-width: 370px) and (max-width: 768px) {
+	#profile-pic {
+		padding-top: 0.2rem;
+	}
+	h2 {
+		padding-top: 8rem;
+	}
+}
+
+@media all and (max-width: 370px) {
+	#profile-pic {
+		padding-top: 0.1rem;
+	}
 }
