@@ -14,10 +14,21 @@ body {
 	background: rgb(230, 224, 212);
 }
 
+#name {
+	color: #e06d35;
+	font-family: 'Roboto Serif', serif;
+	font-size: 30px;
+}
+
 h2 {
 	color: rgb(73, 90, 109);
 	font-size: 50px;
 }
+h3 {
+	padding-left: 1.5rem;
+	font-size: 30px;
+}
+
 p,
 h3,
 h4,
@@ -25,10 +36,22 @@ h5 {
 	color: rgb(73, 90, 109);
 }
 
+p {
+	margin: auto;
+}
+
 #profile-pic {
 	width: 350px;
 	height: 350px;
 	border-radius: 50%;
+}
+
+.projects {
+	padding: 1.5rem;
+}
+
+.col-sm {
+	padding: 1.5rem;
 }
 
 button {
@@ -49,5 +72,10 @@ button {
 @media all and (max-width: 370px) {
 	#profile-pic {
 		padding-top: 0.1rem;
+	}
+	#name {
+		color: #e06d35;
+		font-family: 'Roboto Serif', serif;
+		font-size: 15px;
 	}
 }
