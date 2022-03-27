@@ -32,27 +32,22 @@ h3 {
 	font-size: 3em;
 	font-weight: bold;
 }
-
 p,
 h3,
 h4,
 h5 {
 	color: rgb(73, 90, 109);
 }
-
 .projects {
 	padding: 1.5rem;
 	background: rgb(230, 224, 212);
 }
-
 .col-sm {
-	padding: 1.5rem;
+	margin: 1rem;
 }
-
-button {
+.card {
+	padding: 1rem;
 	border-radius: 8%;
-
-	background-color: rgb(198, 142, 119);
 }
 
 @media all and (min-width: 390px) and (max-width: 768px) {
