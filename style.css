@@ -63,19 +63,28 @@ h5 {
 }
 
 .skills {
-	background-color: white;
-	text-align: left;
+	background: white;
+	text-align: center;
+	padding-top: 4rem;
 }
 .skills-title {
 	font-size: 3em;
 	font-weight: bold;
+	padding-bottom: 0.2rem;
 }
 .skills-p {
-	padding: 0.5rem;
+	padding: 0.2rem;
 }
 .contact {
 	background-color: white;
-	padding-bottom: 5rem;
+	padding-bottom: 6rem;
+	padding-top: 4rem;
+}
+#bottom-contact {
+	color: #e06d35;
+	font-family: 'Roboto Serif', serif;
+	font-weight: bolder;
+	padding-bottom: 0.2rem;
 }
 #button-flex {
 	justify-content: space-evenly;
