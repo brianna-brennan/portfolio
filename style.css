@@ -116,7 +116,7 @@ footer {
 	}
 }
 
-@media all and (max-width: 390px) {
+@media all and (max-width: 415px) {
 	#name {
 		font-size: 20px;
 	}
